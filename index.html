@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marwa Qaisiya</title>
-    <link rel="stylesheet" href="css/sheet1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -41,15 +42,19 @@
             </div>----->
         </section>
         <section id="services">
-            <h2 class="title-purple">Servicse</h2>
+            <h2 class="title-purple">Services</h2>
             <div id="services-box">
                 <div>
-                    <h3>Landscape<br>Design</h3>
+                    <i class="fa-solid fa-plane fa-2xl" style="color: #ffffff;"></i>
+                    <h3>Landing page<br>Design</h3>
                 </div>
                 <div>
+                    <i class="fa-solid fa-code fa-2xl" style="color: #ffffff;"></i>
+
                     <h3>Website<br>Development</h3>
                 </div>
                 <div>
+                    <i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
                     <h3>Brand<br>Design</h3>
                 </div>
             </div>
@@ -75,12 +80,18 @@
             <h2 class="title-purple">Projects</h2>
             <div id="projects-box">
                 <div>
+                    <i class="fa-solid fa-rocket fa-2xl" style="color: #ffffff;">
+                    </i>
                     <p>Comming soon</p>
                 </div>
                 <div>
+                    <i class="fa-solid fa-rocket fa-2xl" style="color: #ffffff;">
+                    </i>
                     <p>Comming soon</p>
                 </div>
                 <div>
+                    <i class="fa-solid fa-rocket fa-2xl" style="color: #ffffff;">
+                    </i>
                     <p>Comming soon</p>
                 </div>
             </div>
@@ -151,19 +162,33 @@
         </section>
         <footer id="contact">
             <h2 class="title-white">Contact me !</h2>
-            <div id="contact-box">
-                <a href="mailto:marwaqaisiya@gmail.com">
-                    <div>
-                        <img src="assets/mail.png" alt="Email"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/marwa-q-567730210">
-                    <div>
-                        <img src="assets/linkedin.png" alt="Linkedin"></div>
-                </a>
-                <a href="tel:+962780645727">
-                    <div>
-                        <img src="assets/whatsapp.png" alt="Whatsapp"></div>
-                </a>
+            <div id="contact-content">
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Nambwe">
+                        <input type="text" placeholder="Email Subject">
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+                <div id="contact-box">
+                    <div class="contact-ele">
+                        <a href="mailto:marwaqaisiya@gmail.com">
+                            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="contact-ele">
+                        <a href="https://www.linkedin.com/in/marwa-q-567730210">
+                            <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="contact-ele">
+                        <a href="tel:+962780645727">
+                            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
             </div>
         </footer>
     </main>
